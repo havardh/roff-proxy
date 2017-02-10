@@ -1,0 +1,12 @@
+[package]
+name = "roff-proxy"
+version = "0.1.0"
+authors = ["Håvard Wormdal Høiby <havardwhoiby@gmail.com>"]
+
+[dependencies]
+futures = "0.1"
+tokio-core = "0.1"
+tokio-proto = "0.1"
+dns-lookup = "0.2.1"
+curl = "0.4.4"
+toml = "0.2.1"
